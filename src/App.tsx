@@ -1,9 +1,7 @@
 import React from 'react';
-import { Grid } from "@simpleview/sv-mosaic";
-import * as nuts from "@simpleview/sv-mosaic";
+import { Grid, transform_thumbnail } from "@simpleview/sv-mosaic";
 
-console.log("nuts", nuts);
-nuts.transforms.transform_thumbnail({ width : 10, height : "string" });
+transform_thumbnail({ width : 10, height : 20 });
 
 function App() {
 	const data = [

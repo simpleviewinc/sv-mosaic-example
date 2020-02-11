@@ -5,7 +5,8 @@
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "@material-ui/icons": "^4.4.1",
-    "@simpleview/sv-mosaic": "0.1.1-0",
+    "@simpleview/sv-mosaic": "*",
+    "@types/react-dom": "*",
     "jsvalidator": "^1.2.0",
     "lodash": "^4.17.15",
     "react": "^16.11.0",
