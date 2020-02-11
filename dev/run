@@ -1,0 +1,7 @@
+#!/bin/bash
+docker run --rm -it \
+	-v $PWD/public:/app/public \
+	-v $PWD/src:/app/src \
+	-v $PWD/package.json:/app/package.json \
+	-p 10001:3000 \
+	sv-mosaic-example:local /bin/bash
