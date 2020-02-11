@@ -1,3 +1,18 @@
+# Installation
+
+In sv-kubernetes
+
+```
+sudo sv install sv-mosaic-example --type=container
+cd /sv/containers/sv-mosaic-example
+sudo npm run docker
+npm start
+```
+
+You should now be able to access your project via browser at https://kube.simpleview.io:10001/ . The message you get in your terminal will say a URL, but that URL is wrong, ignore it.
+
+# Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
